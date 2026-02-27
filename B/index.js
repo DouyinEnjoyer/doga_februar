@@ -19,7 +19,7 @@ new FormController(data.colspanFormFieldList,managerCol)
 
 const managerRow = new Manager()
 const tableRow = new Table(data.rowspanHeaderArray, managerRow)
-tableRow.setAppendElement(tbodyRenderColspan)
+tableRow.setAppendElement(tbodyRenderRowspan)
 for (let a of data.rowspanTableArray)
 {
     managerRow.addElement(a)
