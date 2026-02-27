@@ -1,0 +1,123 @@
+{
+    "colspanHeaderArray": [
+        {
+            "name": "Évszám"
+        },
+        {
+            "name": "Űrben járó nemzetisége",
+            "colspan": 2
+        }
+    ],
+    "colspanDataArr": [
+        {
+            "evszam": "1961",
+            "jaro1": "orosz"
+        },
+         {
+            "evszam": "1962",
+            "jaro1": "orosz",
+            "jaro2": "amerikai"
+        },
+        {
+            "evszam": "1964",
+            "jaro1": "orosz"
+        },
+        {
+            "evszam": "1968",
+            "jaro1": "orosz",
+            "jaro2": "amerikai"
+        }
+    ],
+    "colspanFormFieldList": [
+        {
+            "label": "Évszám",
+            "name": "evszam",
+            "id": "elso",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Nemzetiség 1",
+            "name": "jaro1",
+            "id": "masodik",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Nemzetiség 2",
+            "name": "jaro2",
+            "id": "harmadik",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "rowspanHeaderArray": [
+        {
+            "name": "Verscsoport"
+        },
+        {
+            "name": "Verscím"
+        },
+        {
+            "name": "Évszám"
+        }
+    ],
+    "rowspanTableArray": [
+        {
+            "verscsoport": "Az avantgárd vonzásában",
+            "vers1": "Pogány köszöntő",
+            "evszam1": "1930",
+            "vers2": "Újmódi pásztorok éneke",
+            "evszam2": "1931"
+        },
+        {
+            "verscsoport": "Költészetének leegyszerűsödése",
+            "vers1": "Újhold",
+            "evszam1": "1935"
+        },
+        {
+            "verscsoport": "Költészetének klasszicizálódása",
+            "vers1": "Járkálj csak, halálraitélt",
+            "evszam1": "1936",
+            "vers2": "Meredek út",
+            "evszam2": "1938"
+        }
+    ],
+    "rowspanFormFieldList": [
+        {
+            "label": "Verscsoport",
+            "name": "verscsoport",
+            "id": "elso",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Verscím 1",
+            "name": "vers1",
+            "id": "masodik",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Évszám 1",
+            "name": "evszam1",
+            "id": "harmadik",
+            "type": "text",
+            "required": true
+        },
+        {
+            "label": "Verscím 2",
+            "name": "vers2",
+            "id": "negyedik",
+            "type": "text",
+            "required": false
+        },
+        {
+            "label": "Évszám 2",
+            "name": "evszam2",
+            "id": "otodik",
+            "type": "text",
+            "required": false
+        }
+    ]
+}
